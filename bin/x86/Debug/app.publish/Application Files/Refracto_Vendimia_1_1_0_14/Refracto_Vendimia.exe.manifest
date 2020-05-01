@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Refracto_Vendimia.exe" version="1.1.0.14" publicKeyToken="42ca0e7518ccf436" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="CooperativaLogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Refracto_Vendimia" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Refracto_Vendimia.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.5.3.dll" size="242176">
+      <assemblyIdentity name="Bunifu_UI_v1.5.3" version="1.5.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8bPg8nUKkQPkampKNPHPnRd3lyX5gELMJHXsZkhIAc8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Oracle.ManagedDataAccess.dll" size="5009408">
+      <assemblyIdentity name="Oracle.ManagedDataAccess" version="4.122.19.1" publicKeyToken="89B483F429C47342" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>E/8jRaUcv3Ds9KjHaxqriPm2/ckVY0O856icdS0SAKs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Refracto_Vendimia.exe" size="604616">
+      <assemblyIdentity name="Refracto_Vendimia" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IGoHs9CtfpAK38WECLHZvouEGZRceOls7iI4FgIHF0I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="355328">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.112.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GEO7uzEhq1BlJR7K45uSMInTYSfj1OCmCTprV/50fhA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CooperativaLogo.ico" size="135901">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>scP2S64B+YImcswDBw8I/2CCIv+C5joxK+2AXGCzwlE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Refracto_Vendimia.exe.config" size="3329">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M4aLjeIMBqY1SU6m50dZ0ZbIHjJvxXGdvglUoecPals=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x64\sqlite.interop.dll" size="1430016">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qZohhZQPRJxkGY+5VDFs4mJF/Ea6P2/DdGV5Tqx+Wm8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\sqlite.interop.dll" size="1430016">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qZohhZQPRJxkGY+5VDFs4mJF/Ea6P2/DdGV5Tqx+Wm8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CAPEL\falvarez_ap" issuerKeyHash="48f776d49994bdb0ef379eb047238975fdb1eff5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>prxtLRXWLV9jB/PnQL+x5rb0Gy/+5E2xhdI8jyddgc8=</DigestValue></Reference></SignedInfo><SignatureValue>hHTwJdRDxuE2Ut2Ftx1+8o1O6HFWOapUeGjQkN1uBnUxVgljGmXsx6mPfEV1/0CESVIZGflaFqpXcsTRFK+US0JHNkFKoQ6nLIHLlxLw3MPgZeoHvCz1Rwl5WD1hBnaKSYUFvVglFX2D6nXZ34AYxYlBpCnfDzXAOg/SoHmJkV0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>n+bGcRgg3cbgiJiE0ZzfOke0b/Dz88NikdLQiuTOT5f94h2bvTTBb4js+wSbDLno2y7RZ+qgflB8JbhRdbiA4pYi3374K8LHP4Z1EPCL/jPb+ciVP3bgPotCIKFY9Sd04yJBNrUokbBAywlvFFP0RQkZviIDtijbvvKT/F9PSw0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cf815d278f3cd285b14de4fe2f1bf4b6e6b1bf40e7f307635f2dd6152d6dbca6" Description="" Url=""><as:assemblyIdentity name="Refracto_Vendimia.exe" version="1.1.0.14" publicKeyToken="42ca0e7518ccf436" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CAPEL\falvarez_ap</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zVhOC2Aq5vqOtEprbCqgxJdmYHgLSWGAqSVZctCMmB8=</DigestValue></Reference></SignedInfo><SignatureValue>BQk4FGl8lFqKC0gM/p5VL2QeVwyIBFWbZ0L/05fx1vA+g5kPcmSkiN/lY3zdQmTeyJBOXH3qI9tro5yT2n4wl7WyfWcNDJ3x70++SEnDS9pNTQJukUn0U40LjQl1rFoONJxZ3LwNjm7PyecAlTNw262Bi/K3EGXvwLbyqDLG6Tc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>n+bGcRgg3cbgiJiE0ZzfOke0b/Dz88NikdLQiuTOT5f94h2bvTTBb4js+wSbDLno2y7RZ+qgflB8JbhRdbiA4pYi3374K8LHP4Z1EPCL/jPb+ciVP3bgPotCIKFY9Sd04yJBNrUokbBAywlvFFP0RQkZviIDtijbvvKT/F9PSw0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQeFTt2RiUSIhDPDIzG8piazANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAQwBBAFAARQBMAFwAZgBhAGwAdgBhAHIAZQB6AF8AYQBwMB4XDTIwMDIxOTE3MjE1MFoXDTIxMDIxODIzMjE1MFowLTErMCkGA1UEAx4iAEMAQQBQAEUATABcAGYAYQBsAHYAYQByAGUAegBfAGEAcDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAn+bGcRgg3cbgiJiE0ZzfOke0b/Dz88NikdLQiuTOT5f94h2bvTTBb4js+wSbDLno2y7RZ+qgflB8JbhRdbiA4pYi3374K8LHP4Z1EPCL/jPb+ciVP3bgPotCIKFY9Sd04yJBNrUokbBAywlvFFP0RQkZviIDtijbvvKT/F9PSw0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAAzvTOYNh4cWWdPym9Hx2Hq4ehaX2EcHsuYClO7UcHP91wqO23gKph9CutFWttTF19j8tkHIhKGVvdeSRaCVxoNFTyLK6ku4Cx3Vf+4a1B0A7qTTy5bND4D3Eva/cJfYqjC2I15VOfixuVEA+w3o+bDsh8WSEcQe0jqrs+7EaQZQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
